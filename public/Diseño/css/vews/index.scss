@@ -1,0 +1,113 @@
+.title{
+	background: #333;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding: 10px;
+	margin: 0;
+	text-align:center;
+
+	span{
+		text-transform: uppercase;
+		font-weight: bolder;
+		color: #FFF;
+	}
+}
+
+.files_content{
+	display: flex;
+	flex-direction: column;
+	margin:10px auto;
+	padding: 10px;
+	margin-bottom: 0;
+	width: 100%;
+	max-width: 400px;
+
+	.file_struct{
+		display: flex;
+		flex-direction: row;
+		width: 100%;
+		margin: 5px auto;
+		padding: 5px;
+		background: #AAA;
+		border-radius: 10px;
+		transform: scale(0.98);
+		transition: 0.1s linear;
+
+		img{
+			/*border: 1px solid #EEE;*/
+			padding: 2px;
+			width: 40px;
+			height: 40px;
+			margin: auto 10px;
+		}
+
+		span{
+			display: flex;
+			text-align: justify;
+			margin: auto auto auto 0;
+		}
+
+		.controls{
+			display: flex;
+			flex-direction: row;
+			padding: 10px;
+			margin: auto;
+			transform: scale(0.98);
+			transition: 0.1s linear;
+
+			button{
+				border: 2px solid #FFF;
+				padding: 5px;
+				margin: auto 3px;
+				transform: scale(0.9);
+				transition: 0.1s linear;
+			}
+
+			button:hover{
+				background: #A22;
+				color: #FFF;
+				transform: scale(1);
+				transition: 0.1s linear;
+			}
+		}
+	}
+
+	.file_struct:hover{
+		transform: scale(1);
+		transition: 0.1s linear;
+	}
+}
+
+div.files_editor{
+	display: flex;
+	flex-direction: column;
+	margin:auto auto 10px auto;
+	border-top:solid 1px #CCC;
+	padding: 10px 20px;
+	width: 100%;
+	max-width: 400px;
+	
+	textarea{
+		width: 100%;
+		padding: 10px;
+		border-radius: 5px;
+	}
+	
+	button{
+		margin: 10px 0;
+		padding: 5px;
+		border-radius: 5px;
+		font-weight: bolder;
+		text-transform: uppercase;
+		transition: 0.1s linear;
+		border: 2px solid #BBB;
+	}
+	button:hover{
+		border: 2px solid #FFF;
+		color: #FFF;
+		background: #A22;
+		transition: 0.1s linear;
+	}
+
+}

@@ -1,0 +1,20 @@
+pasos para provar el proyecto
+1)instalar node.js  https://nodejs.org/es/
+
+2)instalar redis server https://redis.io/
+   nota si se instala redis en linux en la consola iniciar el comando redis-server para un correcto funcionamiento
+
+3)en la consola en la raiz del proyecto npm-update para instalar las dependencias 
+
+4)por ultimo ejecutar el comando node app.js o tambien nodemon app.js
+
+para visualizar http://localhost:8080
+
+al cargar se ve una vista la cual nos permite hacer la suma y donde nos conecta como cliente para efectos practicos
+una pestaña tener el cliente y en la otra donde se hace la suma 
+
+al momento de hacer la suma se le llega los datos al cliente y desde el cliente se hacen la suma y ya esta es mandada al
+servidor para observar resultado observar la consola donde se ejucto node app.js o  nodemon app.js
+
+Leonardo Vega Timana
+Juan Diego Saldarriaga

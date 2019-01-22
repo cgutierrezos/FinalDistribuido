@@ -1,0 +1,3 @@
+Se CREO el archivotest1.txtdel cliente HhITRI8YJcaF1hcpAAACla hora:15:44
+Se EDITO el archivoHola sebastian.txtdel cliente HhITRI8YJcaF1hcpAAACla hora:15:45
+Se LEE el archivoundefined.txtdel cliente lUt4CLxCZCj_KEqYAAADla hora:15:45

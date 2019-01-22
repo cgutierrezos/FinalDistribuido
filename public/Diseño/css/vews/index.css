@@ -1,0 +1,153 @@
+.title {
+  background: #333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 10px;
+  margin: 0;
+  text-align: center; }
+  .title span {
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #FFF; }
+
+.files_content {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: 10px auto;
+  padding: 10px;
+  margin-bottom: 0;
+  width: 100%;
+  max-width: 400px; }
+  .files_content .file_struct {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    width: 100%;
+    margin: 5px auto;
+    padding: 5px;
+    background: #AAA;
+    border-radius: 10px;
+    -webkit-transform: scale(0.98);
+    -ms-transform: scale(0.98);
+    transform: scale(0.98);
+    -webkit-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear; }
+    .files_content .file_struct img {
+      /*border: 1px solid #EEE;*/
+      padding: 2px;
+      width: 40px;
+      height: 40px;
+      margin: auto 10px; }
+    .files_content .file_struct span {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      text-align: justify;
+      margin: auto auto auto 0; }
+    .files_content .file_struct .controls {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: horizontal;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      padding: 10px;
+      margin: auto;
+      -webkit-transform: scale(0.98);
+      -ms-transform: scale(0.98);
+      transform: scale(0.98);
+      -webkit-transition: 0.1s linear;
+      -o-transition: 0.1s linear;
+      transition: 0.1s linear; }
+      .files_content .file_struct .controls button {
+        border: 2px solid #FFF;
+        padding: 5px;
+        margin: auto 3px;
+        -webkit-transform: scale(0.9);
+        -ms-transform: scale(0.9);
+        transform: scale(0.9);
+        -webkit-transition: 0.1s linear;
+        -o-transition: 0.1s linear;
+        transition: 0.1s linear; }
+      .files_content .file_struct .controls button:hover {
+        background: #A22;
+        color: #FFF;
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: 0.1s linear;
+        -o-transition: 0.1s linear;
+        transition: 0.1s linear; }
+  .files_content .file_struct:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear; }
+
+div.files_editor {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  margin: auto auto 10px auto;
+  border-top: solid 1px #CCC;
+  padding: 10px 20px;
+  width: 100%;
+  max-width: 400px; }
+  div.files_editor textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px; }
+  div.files_editor button {
+    margin: 10px 0;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    -webkit-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear;
+    border: 2px solid #BBB; }
+  div.files_editor button:hover {
+    border: 2px solid #FFF;
+    color: #FFF;
+    background: #A22;
+    -webkit-transition: 0.1s linear;
+    -o-transition: 0.1s linear;
+    transition: 0.1s linear; }

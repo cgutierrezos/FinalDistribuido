@@ -1,0 +1,43 @@
+@import "inputs.css";
+@import "buttons.css";
+
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+*::-webkit-scrollbar-track,*::-webkit-scrollbar,*::-webkit-scrollbar-thumb{
+	display: none;
+}
+
+input[type=date]::-webkit-outer-spin-button,input[type=date]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button,input[type=number]::-webkit-inner-spin-button{
+    appearance: none;
+    margin: 0;
+}
+
+.glyphicon{
+	top:0;
+}
+
+.glyphicon:before{
+	padding:0;
+	margin:auto;
+}
+
+body{
+	background: #000;
+	min-width: 250px;
+}
+
+.window{
+	background: #FFF;
+	position: relative;
+	width: 100%;
+	min-height: 100vh;
+	padding: 0px 0px 20px 0px;
+	display: flex;
+	flex-direction: column;
+	margin: 0 auto;
+}

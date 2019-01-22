@@ -1,0 +1,29 @@
+
+
+//http://www.tutorialesprogramacionya.com/javascriptya/nodejsya/detalleconcepto.php?punto=4&codigo=4&inicio=0
+extends moduls/struct_short.jade
+block libs
+	link(rel="stylesheet" type="text/css" href="estatico/Diseño/css/vews/index.css")
+	input#valor(type='text', hidden='')
+block content
+	div.title
+		span Proyecto final
+	div.files_content
+		
+	div.files_editor
+		textarea.text1
+		
+	div.files_editor
+		textarea.text(disabled='' ,style="height:100px;")
+
+	div.files_editor
+		button(onclick='agregarArchivo()') Agregar ARCHIVO 
+
+	div.files_editor
+		center
+			span NOMBRE ARCHIVO
+		textarea.textcrear(value="nombre archivo" ,style="height:20px;")
+		
+block libs_js
+	script(src="/estatico/js/socket.io.js")
+	script(src="estatico/Diseño/js/files.js")
